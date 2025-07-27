@@ -1,4 +1,4 @@
-# TODO: 1 - import the OpenAI class from the openai library
+# Import the OpenAI class from the openai library
 from openai import OpenAI
 import numpy as np
 import pandas as pd
@@ -35,7 +35,7 @@ class DirectPromptAgent:
 class AugmentedPromptAgent:
     def __init__(self, openai_api_key, persona):
         """Initialize the agent with given attributes."""
-        # TODO: 1 - Create an attribute for the agent's persona
+        # Create an attribute for the agent's persona
         self.persona = persona
 
         self.client = OpenAI(
