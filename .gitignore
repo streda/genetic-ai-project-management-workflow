@@ -1,0 +1,21 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+
+# IDE-specific folders
+.vscode/
+.idea/
+
+# Output or generated files
+Submission-Output.pdf
